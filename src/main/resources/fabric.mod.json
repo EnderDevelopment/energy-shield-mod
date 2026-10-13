@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "energyshieldmod",
+  "version": "${version}",
+  "name": "Energy Shield Mod",
+  "description": "A mod that creates an energy shield around the player",
+  "authors": [
+    "JesusReiner365"
+  ],
+  "contact": {
+    "homepage": "https://github.com/JesusReiner365/EnergyShieldMod",
+    "sources": "https://github.com/JesusReiner365/EnergyShieldMod"
+  },
+  "license": "MIT",
+  "icon": "assets/energyshieldmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.jesusreiner365.energyshieldmod.EnergyShieldMod"
+    ]
+  },
+  "mixins": [
+    "energyshieldmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}
